@@ -1,0 +1,94 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049; /**I'd love to hear from you...**/
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+
+}
+nav {
+  display: flex; /**Use flexbox to layout the navigation links horizontally with justify-content and gap**/
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  /* margin: 0% auto; nothing happen not need to be add it */
+} 
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+   text-align: center;
+  /* font-size: ; No need to be add it */
+  /* display: block;
+  margin: 0 auto; */
+  color: #003049; /**h1 color**/
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+article {
+  
+  display: block;
+  margin: 0%;
+  text-align: left;
+}
+
+article div {
+  /* we don't need add color */
+  width: 100%;
+}
+
+
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  text-align: left;
+  margin: auto;
+  width: 600px;
+}
+a:hover {
+  color: #f77f00;
+  /**color for linlks when they are selected**/
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  /* padding-left: 300px; */
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: #003049 solid 2px;
+
+
+}
+
+/*Pete All rihts reserved.*/ 
+footer {
+  text-align: center;
+  }
+
+a{
+  color: #d62828;
+  text-decoration: underline;
+  text-align: left;
+  padding: 0%;
+}
+
